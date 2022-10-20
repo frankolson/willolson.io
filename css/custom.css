@@ -5,6 +5,10 @@
   --width-content: 750px;
 }
 
+header nav a {
+  color: var(--color-text);
+}
+
 .homepage-details {
   margin: 0;
 }
