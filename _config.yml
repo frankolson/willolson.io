@@ -7,6 +7,9 @@ url: "https://willolson.io" # the base hostname & protocol for your site, e.g. h
 twitter_username: thinkolson
 github_username:  frankolson
 
+permalink:    /:title
+date_format: "%-d %B %Y"
+
 # Build settings
 plugins:
   - jekyll-feed
