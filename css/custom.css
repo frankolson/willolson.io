@@ -1,0 +1,13 @@
+.homepage-details {
+  margin: 0;
+}
+
+.homepage-details summary h2 {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.homepage-details section {
+  margin-left: 1.5rem;
+  margin-bottom: 1.3rem;
+}
