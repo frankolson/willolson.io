@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section>
+  <header>
+    <h1>Let's get in touch!</h1>
+  </header>
+  
+  <form action="https://formspree.io/mdoaagzn" method="POST">
+    <label>
+      Email
+      <input type="text" name="_replyto" placeholder="Email address">
+    </label>
+    
+    <label>
+      Content
+      <textarea type="text" name="message" rows="5" placeholder="What would you like to say?"></textarea>
+    </label>
+
+    <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
+    <input type="hidden" name="_subject" value="New contact request!" />
+    <input type="text" name="_gotcha" style="display:none" />
+
+    <button type="submit">Say Hello</button>
+  </form>
+</section>

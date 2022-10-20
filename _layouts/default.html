@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" color-mode="user">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title | strip_html }} &#8211; {% endif %}{{ site.title | strip_html }}</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/mvp.css" | prepend: site.baseurl }}" type="text/css">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon" href="{{ "/images/apple-touch-icon.png" | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ "/images/favicon-16x16.png" | relative_url }}" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ "/images/favicon-32x32.png" | relative_url }}" sizes="32x32">
+    <link rel="shortcut icon" href="{{ "/images/favicon.ico" | relative_url }}">
+  </head>
+
+  <body>
+    {% include header.html %}
+
+    <main>
+      {{ content }}
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
