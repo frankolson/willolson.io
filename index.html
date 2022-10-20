@@ -68,6 +68,30 @@ layout: default
 
 <details class="homepage-details">
   <summary>
+    <h2>/writing</h2>
+  </summary>
+  
+  <section class="articles-section">
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+        </a>
+      </li>
+      {% endfor %}
+      
+      <li>
+        <a href="{{'/articles' | relative_url}}">
+          Find more...
+        </a>
+      </li>
+    </ul>
+  </section>
+</details>
+
+<details class="homepage-details">
+  <summary>
     <h2>/references</h2>
   </summary>
 

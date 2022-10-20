@@ -7,6 +7,18 @@
   margin-top: 0;
 }
 
+.homepage-details .articles-section {
+  display: inline-block;
+}
+
+.homepage-details .articles-section ul {
+  margin: 0.75rem 0;
+}
+
+.homepage-details .articles-section ul {
+  padding: 0 1rem;
+}
+
 .homepage-details section {
   margin-left: 1.5rem;
   margin-bottom: 1.3rem;
