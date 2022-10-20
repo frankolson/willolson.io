@@ -5,10 +5,52 @@
   --width-content: 750px;
 }
 
+/* Headings */
+h1 {
+  font-size: 2.998rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+/* Navigation */
 header nav a {
   color: var(--color-text);
 }
 
+header nav h1 {
+  font-size: 1.5rem;
+}
+
+/* Avatar intro */
+.homepage-intro {
+  text-align: center;
+}
+
+.homepage-intro img {
+  margin: 2rem 0;
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* Homepage directory details feature */
 .homepage-details {
   margin: 0;
 }
