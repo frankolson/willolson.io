@@ -1,3 +1,10 @@
+:root {
+  --width-card: 285px;
+  --width-card-medium: 460px;
+  --width-card-wide: 700px;
+  --width-content: 750px;
+}
+
 .homepage-details {
   margin: 0;
 }
