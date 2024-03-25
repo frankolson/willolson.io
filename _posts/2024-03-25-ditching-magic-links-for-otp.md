@@ -468,4 +468,4 @@ Now that everything is connected, we can observe the full login flow:
 
 In conclusion, OTPs provide a more secure and mobile-friendly alternative to Magic Links. By customizing NextAuth, you can easily implement OTPs in your application.
 
-If you have any feedback or questions, feel free to comment or direct message me! And don't forget to check out [AuChef](https://auchefapp.com/)!
+If you have any feedback or questions, feel free to reach out on twitter (<a href="https://twitter.com/{{ site.twitter_username }}">@thinkolson</a>). And don't forget to check out [AuChef](https://auchefapp.com/)!
