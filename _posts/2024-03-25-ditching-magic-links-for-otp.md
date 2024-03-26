@@ -464,7 +464,7 @@ export default async function Signin() {
 
 Now that everything is connected, we can observe the full login flow:
 
-[OTP authentication demo](/images/posts/otp-demo.gif)
+![OTP authentication demo](/images/posts/otp-demo.gif)
 
 In conclusion, OTPs provide a more secure and mobile-friendly alternative to Magic Links. By customizing NextAuth, you can easily implement OTPs in your application.
 
